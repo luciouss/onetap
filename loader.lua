@@ -3,7 +3,7 @@ local loader = Instance.new("Frame")
 
 local loader2 = Instance.new("Frame")
 
-BloxWheels.Name = "Onetap V1 |Credit to danix for loader ui :)"
+BloxWheels.Name = "Onetap V1 | Credit to danix for loader ui :)"
 
 BloxWheels.Parent = ScrollingFrame
 
@@ -31,7 +31,7 @@ BloxWheels.TextStrokeTransparency = 0.600
 
 BloxWheels.MouseButton1Click:Connect(function()
 
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/luciouss/onetap/main/obfs.lua", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/luciouss/onetap/main/onetap.lua?token=ATXY5SMS7YKD4YHM63OIUXTBMDM6Q", true))()
     loader.Visible = false
     
 end)
