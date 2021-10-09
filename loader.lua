@@ -146,7 +146,7 @@ BloxWheels.TextStrokeTransparency = 0.600
 
 BloxWheels.MouseButton1Click:Connect(function()
 
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/luciouss/onetap/main/onetap.lua?token=ATXY5SNCK7VYZIAVJLHZVADBMDTZO", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/luciouss/onetap/main/onetap", true))()
 
 	loader.Visible = false
 
